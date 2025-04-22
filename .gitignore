@@ -1,0 +1,48 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+
+# Laravel logs & cache
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+
+# IDEs & System
+.idea/
+.DS_Store
+Thumbs.db
+
+# Composer
+composer.lock
+
+# NPM/Yarn
+package-lock.json
+yarn.lock
+
+# Vite / Laravel Mix
+/public/hot
+/public/build
+/build
+/dist
+
+# Log & temp files
+*.log
+*.tmp
+*.cache
+
+# Test coverage
+coverage/
+TEST*.xml
+
+# OS Artifacts
+*.swp
+*.swo
+
+# Media uploads (opcional: se não quiser subir imagens reais)
+public/img/produtos/
+public/img/uploads/

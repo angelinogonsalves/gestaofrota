@@ -1,0 +1,28 @@
+.owl-carousel {
+    position: relative;
+}
+.owl-carousel i {
+    font-size: 30px;
+    color: #b5aaaa;
+}
+.owl-carousel i:hover {
+    color: #000000;
+}
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: #fff !important;
+    padding: 1px !important;
+}
+.owl-next, .owl-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.owl-next {
+    right: 0;
+    display: flex;
+}
+.owl-prev{
+    left: 0;
+    display: flex;
+}
