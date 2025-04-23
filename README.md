@@ -36,6 +36,7 @@ Criado como projeto real sob demanda, adaptável para diferentes negócios.
 Este projeto foi desenvolvido originalmente sob demanda.  
 A versão aqui publicada foi adaptada para fins **educacionais e de portfólio**.  
 **Uso comercial não é permitido sem autorização.**
+Todos os direitos reservados © Angelino Gonsalves.
 
 ---
 

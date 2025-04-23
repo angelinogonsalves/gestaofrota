@@ -46,7 +46,7 @@ Route::middleware(['auth'])->group(function () {
       
     Route::get('/', [HomeController::class,'index'])->name('home');
 
-    Route::get('home/', [HomeController::class,'index'])->name('home');
+    Route::get('home/', [HomeController::class,'index']);
 
     Route::group(array('prefix' => 'usuarios'), function(){
         Route::get('/', [UserController::class,'index']);

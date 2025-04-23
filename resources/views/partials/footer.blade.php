@@ -1,7 +1,7 @@
 <footer class="main-footer">
-    <strong>Copyright &copy; 2025 <a href="#">Gestão Frota</a>.</strong>
-    Todos direitos reservados.
-    <div class="float-right d-none d-sm-inline-block">
-        <b>Version</b> 1.1.25
-    </div>
+  <strong>© 2025 <a href="https://angelinogonsalves.com" target="_blank">Angelino Gonsalves</a>. Gestão Frota.</strong>
+  Projeto publicado para fins de portfólio. Todos os direitos reservados.
+  <div class="float-right d-none d-sm-inline-block">
+    <b>Versão</b> 1.1.25
+  </div>
 </footer>
