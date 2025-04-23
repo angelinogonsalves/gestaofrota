@@ -69,15 +69,16 @@
                     <p class="mb-1">
                         <a href="{{url('/recuperar-senha')}}">Esqueci minha senha</a>
                     </p>
-
-                    <!-- APENAS NO SISTEMA DE DEMONSTRAÇÃO -->
+                </div>
+                    
+                <!-- APENAS NO SISTEMA DE DEMONSTRAÇÃO -->
+                <div class="card-footer">
                     <div class="alert alert-info mt-3">
                         <strong>Usuários de demonstração:</strong><br>
                         Frota: frota@gestaofrota.email / 123456<br>
                         Financeiro: financeiro@gestaofrota.email / 123456<br>
                         Gerente de Contas: contas@gestaofrota.email / 123456
                     </div>
-
                 </div>
             </div>
         </div>
