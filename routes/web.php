@@ -30,12 +30,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/login', [AuthController::class,'login'])->name('login');
 Route::post('/loga', [AuthController::class,'loga'])->name('loga');
-Route::get('/register', [AuthController::class,'register'])->name('register');
 Route::get('/logout', [AuthController::class,'logout'])->name('logout');
-Route::post('/registra', [AuthController::class,'registra'])->name('registra');
-Route::get('/recuperar-senha', [AuthController::class,'recuperarSenha'])->name('recuperar-senha');
-Route::post('/forgot-password', [ForgotPasswordController::class, 'sendResetLinkEmail'])->name('password.email');
-Route::get('/resetar-senha', [ResetPasswordController::class, 'showResetForm'])->name('password.reset');
+
+// Desativa a rota de registro e recuperação de senha
+// Route::get('/register', [AuthController::class,'register'])->name('register');
+// Route::post('/registra', [AuthController::class,'registra'])->name('registra');
+// Route::get('/recuperar-senha', [AuthController::class,'recuperarSenha'])->name('recuperar-senha');
+// Route::post('/forgot-password', [ForgotPasswordController::class, 'sendResetLinkEmail'])->name('password.email');
+// Route::get('/resetar-senha', [ResetPasswordController::class, 'showResetForm'])->name('password.reset');
 
 Route::get('/enviar-relatorio-movimentacoes', [RelatorioEmailController::class, 'enviarRelatorioMovimentacoes'])->name('enviar.relatorio.movimentacoes');
 Route::get('/enviar-relatorio-contas-pagas', [RelatorioEmailController::class, 'enviarRelatoriocontasPagas'])->name('enviar.relatorio.contas.pagas');
@@ -50,9 +52,10 @@ Route::middleware(['auth'])->group(function () {
 
     Route::group(array('prefix' => 'usuarios'), function(){
         Route::get('/', [UserController::class,'index']);
-        Route::get('/cadastro/{user?}', [UserController::class, 'edit']);
-        Route::post('/salvar/{user?}', [UserController::class, 'store']);
-        Route::post('/excluir/{user}', [UserController::class, 'destroy']);
+        // Desativa as rotas de edição, criação e exclusão de usuários:
+        // Route::get('/cadastro/{user?}', [UserController::class, 'edit']);
+        // Route::post('/salvar/{user?}', [UserController::class, 'store']);
+        // Route::post('/excluir/{user}', [UserController::class, 'destroy']);
     });
 
     Route::group(array('prefix' => 'tipo-veiculos'), function(){

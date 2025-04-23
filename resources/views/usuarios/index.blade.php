@@ -25,7 +25,8 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <a href="{{url('usuarios/cadastro')}}" class="btn btn-primary">
+                            <a href="{{url('usuarios/cadastro')}}" class="btn btn-primary btn-disable"
+                                onclick="alert('Esta ação está desabilitada na versão de demonstração'); return false;"> 
                                 <i class="fas fa-plus"></i>
                                 Adicionar Usuário
                             </a>
@@ -50,8 +51,9 @@
                                             <td>{{ $item->email }}</td>
                                             <td>{{ $item->tipo_usuario }}</td>
                                             <td>
-                                                <a class="btn btn-primary btn-sm p-1"
-                                                    href="{{ url('usuarios/cadastro', [$item->id]) }}">
+                                                <a class="btn btn-primary btn-sm p-1 btn-disable"
+                                                    href="{{ url('usuarios/cadastro', [$item->id]) }}"
+                                                    onclick="alert('Esta ação está desabilitada na versão de demonstração'); return false;">
                                                     <i class="fas fa-edit"> </i> Editar
                                                 </a>
                                             </td>

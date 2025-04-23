@@ -25,9 +25,30 @@ Criado como projeto real sob demanda, adaptável para diferentes negócios.
 
 ---
 
-## 📸 Demonstração
+## 🔐 Acesso de Demonstração
 
-> 🚧 Screenshots ou link de demonstração aqui (opcional)
+Você pode testar o sistema diretamente online:
+
+🔗 **Demo:** [https://gestaofrota.angelinogonsalves.com](https://gestaofrota.angelinogonsalves.com)
+
+---
+
+### 👤 Usuários de Teste
+
+#### 🛠️ Frota
+- **E-mail:** `frota@gestaofrota.email`
+- **Senha:** `123456`
+- **Acessos:** usuários, cargos, funcionários, produtos, tipos de veículos, veículos, locais, fretes, tipos de despesas, despesas, abastecimentos, ordem de serviços, relatório geral.
+
+#### 💰 Financeiro
+- **E-mail:** `financeiro@gestaofrota.email`
+- **Senha:** `123456`
+- **Acessos:** usuários, caixas, notas, boletos, cargos, funcionários, produtos, tipos de veículos, veículos, locais, fretes, tipos de despesas, despesas, abastecimentos, ordem de serviços, relatório geral.
+
+#### 📊 Gerente de Contas
+- **E-mail:** `contas@gestaofrota.email`
+- **Senha:** `123456`
+- **Acessos:** usuários, dashboard de contas, movimentações gerais de contas, movimentações diárias de contas, cadastro de contas, cadastro de clientes, cadastro de fornecedores e funcionários para contas, caixas, notas,
 
 ---
 
